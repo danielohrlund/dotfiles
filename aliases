@@ -1,0 +1,15 @@
+alias tc='cd ~/Code/tcell/tcell'
+alias startbwr='cd backend-web-rest && ./startDevelopmentBackendWebRest.sh'
+alias startweb='cd web-app-gallifrey && grunt run'
+alias startspark='cd spark-service && ./startDevelopmentSparkService.sh'
+alias startep='cd processing && lein lowmem-event-processor'
+alias startir='cd input-rest && lein dev-server'
+# alias vi=nvim
+# alias vim=nvim
+
+# utils
+alias prettyjson='python -m json.tool'
+# git
+alias git-merged-branches-show='git branch --merged | grep -v "\*" | grep -v master | xargs -n 1 echo'
+alias git-merged-branches-delete='git branch --merged | grep -v "\*" | grep -v master | xargs -n 1 git branch -d'
+alias git-recent-branches='git for-each-ref --sort=-committerdate refs/heads/'

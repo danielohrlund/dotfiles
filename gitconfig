@@ -1,15 +1,15 @@
 [user]
-	name = Daniel Öhrlund
-	email = danielohrlund@gmail.com
+    name = Daniel Öhrlund
+    email = danielohrlund@gmail.com
 [filter "lfs"]
-	clean = git-lfs clean %f
-	smudge = git-lfs smudge %f
-	required = true
+    clean = git-lfs clean %f
+    smudge = git-lfs smudge %f
+    required = true
 [push]
-	default = simple
+    default = simple
 [core]
-	excludesfile = /Users/daniel/.gitignore_global
-	editor = vim
+    excludesfile = /Users/daniel/.gitignore_global
+    editor = vim
 [alias]
-	unstage = reset HEAD --
-	logg = log --oneline --graph
+    unstage = reset HEAD --
+    logg = log --oneline --graph

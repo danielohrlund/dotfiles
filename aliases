@@ -13,3 +13,6 @@ alias prettyjson='python -m json.tool'
 alias git-merged-branches-show='git branch --merged | grep -v "\*" | grep -v master | xargs -n 1 echo'
 alias git-merged-branches-delete='git branch --merged | grep -v "\*" | grep -v master | xargs -n 1 git branch -d'
 alias git-recent-branches='git for-each-ref --sort=-committerdate refs/heads/'
+
+alias workstation='ssh -L 8282:localhost:8282 -L 8000:localhost:8000 -L 3449:localhost:3449 -L 9090:localhost:9090 -L 3000:localhost:3000 daniel-workstation.local'
+alias workstation-by-ip='ssh -L 8282:localhost:8282 -L 8000:localhost:8000 -L 3449:localhost:3449 -L 9090:localhost:9090 -L 3000:localhost:3000 10.0.1.16'

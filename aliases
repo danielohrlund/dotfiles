@@ -7,6 +7,9 @@ alias startir='cd input-rest && lein dev-server'
 # alias vi=nvim
 # alias vim=nvim
 
+# docker-compose
+alias dctlog='docker-compose logs -f --tail 100'
+
 # utils
 alias prettyjson='python -m json.tool'
 # git

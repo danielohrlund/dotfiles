@@ -13,3 +13,4 @@
 [alias]
     unstage = reset HEAD --
     logg = log --oneline --graph
+    pushf = push --force-with-lease

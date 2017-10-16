@@ -117,9 +117,9 @@ endif
 set undolevels=1000
 
 " Enable mouse
-if has("mouse")
-  set mouse=a
-endif
+" if has("mouse")
+"   set mouse=a
+" endif
 
 " Use system clipboard
 set clipboard+=unnamed

@@ -1,3 +1,6 @@
+#!/usr/bin/env bash
+
+
 # Install git
 apt-get install git
 apt-get install git-core

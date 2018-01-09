@@ -284,6 +284,9 @@ let g:neomake_open_list = 2
 
 let g:clojure_fuzzy_indent_patterns = ['^with', '^def', '^let', '^fact']
 let g:clojure_align_subforms = 1
+let g:clojure_syntax_keywords = {
+    \   'clojureDefine': ['schema.core/defn', 'schema.core/def', 's/defn', 's/def']
+    \ }
 
 " Use deoplete.
 let g:deoplete#enable_at_startup = 1

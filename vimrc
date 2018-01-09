@@ -80,6 +80,9 @@ Plug 'elubow/cql-vim'
 
 Plug 'tpope/vim-fireplace'
 
+" Aligning things
+Plug 'junegunn/vim-easy-align'
+
 call plug#end()
 
 let g:rbpt_colorpairs = [
@@ -240,3 +243,8 @@ let g:clojure_align_subforms = 1
 
 " Use deoplete.
 let g:deoplete#enable_at_startup = 1
+
+" Easy align
+xmap ga <Plug>(EasyAlign)
+
+nmap ga <Plug>(EasyAlign)

@@ -9,6 +9,7 @@ alias startir='cd input-rest && lein dev-server'
 
 # docker-compose
 alias dctlog='docker-compose logs -f --tail 100'
+alias dc='docker-compose'
 
 # utils
 alias prettyjson='python -m json.tool'

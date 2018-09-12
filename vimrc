@@ -172,6 +172,7 @@ set noreadonly
 autocmd Syntax c,cpp set cino=(0
 
 autocmd Syntax clojure set colorcolumn=80
+autocmd Syntax scala set colorcolumn=80
 autocmd Syntax gitcommit set colorcolumn=50,72
 
 " Save file using sudo

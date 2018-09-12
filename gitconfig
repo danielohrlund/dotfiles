@@ -10,6 +10,8 @@
 [core]
     excludesfile = /Users/daniel/.gitignore_global
     editor = vim
+[rebase]
+    instructionFormat = "(%an) %s"
 [alias]
     unstage = reset HEAD --
     logg = log --oneline --graph

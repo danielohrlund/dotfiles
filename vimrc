@@ -122,7 +122,7 @@ set viminfo='1000,<1000,s10,h,f1
 
 " Text, tabs, indent
 set expandtab
-set shiftwidth=4
+set shiftwidth=2
 set tabstop=4
 set linebreak
 set smartindent

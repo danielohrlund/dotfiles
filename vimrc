@@ -94,6 +94,9 @@ Plug 'elubow/cql-vim'
 
 Plug 'tpope/vim-fireplace'
 
+" Neovim clojure tooling over prepl
+Plug 'Olical/conjure', { 'tag': 'v2.0.0', 'do': 'bin/compile'  }
+
 " Aligning things
 Plug 'junegunn/vim-easy-align'
 
@@ -297,10 +300,13 @@ let g:tmuxline_preset = {
 
 let g:neomake_open_list = 2
 
-let g:clojure_fuzzy_indent_patterns = ['^with', '^def', '^let', '^fact']
+" Clojure config
+let g:paredit_matchlines = 300
+let g:clojure_maxlines = 500
+let g:clojure_fuzzy_indent_patterns = ['^with', '^def', '^let', '^fact', '^GET', '^POST', '^PUT', '^DELETE', '^context']
 let g:clojure_align_subforms = 1
 let g:clojure_syntax_keywords = {
-    \   'clojureDefine': ['schema.core/defn', 'schema.core/def', 's/defn', 's/def']
+    \   'clojureDefine': ['schema.core/defn', 'schema.core/def', 's/defn', 's/def', 'GET', 'POST', 'PUT', 'DELETE', 'HEAD', 'ANY', 'OPTIONS', 'PATCH', 'defroutes', 'context']
     \ }
 
 " Use deoplete.

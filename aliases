@@ -15,3 +15,6 @@ alias git-recent-branches='git for-each-ref --sort=-committerdate refs/heads/'
 
 alias workstation='ssh -L 8282:localhost:8282 -L 8000:localhost:8000 -L 3449:localhost:3449 -L 9090:localhost:9090 -L 3000:localhost:3000 daniel-workstation.local'
 alias workstation-by-ip='ssh -L 8282:localhost:8282 -L 8000:localhost:8000 -L 3449:localhost:3449 -L 9090:localhost:9090 -L 3000:localhost:3000 10.0.1.16'
+
+# screenshot
+alias screenshot-region='maim -s | xclip -selection clipboard -t image/png'

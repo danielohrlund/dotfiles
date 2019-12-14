@@ -83,6 +83,9 @@ Plug 'mhartington/nvim-typescript', {'do': ':!install.sh \| UpdateRemotePlugins'
 
 " Editorconig
 Plug 'editorconfig/editorconfig-vim'
+" Go support
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+let g:go_def_mapping_enabled = 0
 
 Plug 'elubow/cql-vim'
 

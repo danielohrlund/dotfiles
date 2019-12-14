@@ -71,8 +71,16 @@ Plug 'edkolev/tmuxline.vim'
 Plug 'jelera/vim-javascript-syntax'
 " Better JavaScript indent
 Plug 'jason0x43/vim-js-indent'
+" Better JavaScript formatting
+Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 " Syntax for JS frameworks
 Plug 'othree/javascript-libraries-syntax.vim'
+" Syntax & other things for TypeScript
+Plug 'HerringtonDarkholme/yats.vim'
+Plug 'mhartington/nvim-typescript', {'do': ':!install.sh \| UpdateRemotePlugins'}
+" Autocomplete for typescript :doom:
+" Plug 'Shougo/deoplete.nvim'
+
 " Editorconig
 Plug 'editorconfig/editorconfig-vim'
 

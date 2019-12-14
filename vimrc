@@ -87,6 +87,9 @@ Plug 'editorconfig/editorconfig-vim'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 let g:go_def_mapping_enabled = 0
 
+" Tmux nav
+Plug 'christoomey/vim-tmux-navigator'
+
 Plug 'elubow/cql-vim'
 
 Plug 'tpope/vim-fireplace'
